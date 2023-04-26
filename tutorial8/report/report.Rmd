@@ -29,21 +29,13 @@ output:
     toc: false
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, cache=TRUE, messages=FALSE, warning=FALSE)
-library(ggplot2)
+```{r}
+library(tidyverse)
+library(dplyr)
 ```
 
+# Section 6
 
-# Introduction
+Hi this is my commit to merge
 
-In a famous paper, @BC64 introduced a family of transformations \dots
-
-```{r histogram, fig.cap="Nice histogram", message=FALSE, warning=FALSE}
-qplot(exp(rnorm(200)))
-```
-
-Consider the logNormal data plotted in Figure \ref{fig:histogram}.
-
-$$s^2 = \sum_{i=1}^n (x_i-\bar{x})^2$$
 
