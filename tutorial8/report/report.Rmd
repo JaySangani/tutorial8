@@ -29,6 +29,7 @@ output:
     toc: false
 ---
 
+<<<<<<< HEAD
 
 
 # SECTION 1
@@ -47,5 +48,15 @@ covid <- read_csv(file = "data/worldwidecases.csv")
 head(covid)
 ```
 
+=======
+```{r}
+library(tidyverse)
+library(dplyr)
+```
+
+# Section 6
+
+Hi this is my commit to merge
+>>>>>>> newbranch-AR
 
 
